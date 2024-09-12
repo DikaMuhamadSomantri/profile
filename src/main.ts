@@ -5,4 +5,6 @@ import "./index.css";
 
 import "./output.css";
 
-createApp(App).mount("#app");
+import router from "./router";
+
+createApp(App).use(router).mount("#app");
