@@ -5,7 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#06b6d4",
+        primary: "#f43f5e",
+        secondary: "#64748b",
+        dark: "#0f172a",
         "rujak-asam": "rgba(255, 99, 71, 0.8)",
       },
       animation: {
