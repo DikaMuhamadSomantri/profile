@@ -90,33 +90,19 @@ export default defineComponent({
   name: "Portfolio",
   setup() {
     const imageGalleryOpened = ref(false);
-    const imageGalleryActiveUrl = ref<string | null>(null);
-    const imageGalleryImageIndex = ref<number>(0);
+    const imageGalleryActiveUrl = ref<string>(""); // Mengganti null dengan string kosong
+    const imageGalleryImageIndex = ref(0);
 
     const images = ref([
-      {
-        src: "/images/telepon-project.png",
-      },
-      {
-        src: "/images/Hiu-project.png",
-      },
-      {
-        src: "/images/arlec-project.png",
-      },
-      {
-        src: "/images/asa-project.png",
-      },
+      { src: "/images/telepon-project.png" },
+      { src: "/images/Hiu-project.png" },
+      { src: "/images/arlec-project.png" },
+      { src: "/images/asa-project.png" },
       { src: "/images/cerdas-project.png" },
       { src: "/images/kobo-project.png" },
-      {
-        src: "/images/lebaran-project.png",
-      },
-      {
-        src: "/images/logo-hero-section.png",
-      },
-      {
-        src: "/images/about-me.png",
-      },
+      { src: "/images/lebaran-project.png" },
+      { src: "/images/logo-hero-section.png" },
+      { src: "/images/about-me.png" },
     ]);
 
     const openImageGallery = (index: number) => {
@@ -127,7 +113,8 @@ export default defineComponent({
 
     const closeImageGallery = () => {
       imageGalleryOpened.value = false;
-      setTimeout(() => (imageGalleryActiveUrl.value = null), 300);
+      // Hapus URL gambar setelah animasi selesai
+      setTimeout(() => (imageGalleryActiveUrl.value = ""), 300);
     };
 
     const nextImage = () => {

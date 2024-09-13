@@ -18,7 +18,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.path === "/") {
       return { el: "#hero", behavior: "smooth" }; // Scroll ke elemen dengan ID "hero"
     } else {
