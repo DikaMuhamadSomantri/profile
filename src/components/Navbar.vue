@@ -10,9 +10,14 @@
             href="/#hero"
             class="flex items-center py-6 text-lg font-bold animate-color-change"
           >
-            Rujak Asam
+            <!-- <img
+              src="/images/Illustration.png"
+              class="w-12 h-auto max-w-full"
+            /> -->
+            <span class="ml-2">Rujak Asam</span>
           </a>
         </div>
+
         <div class="flex items-center px-4">
           <!-- Hamburger Button -->
           <button

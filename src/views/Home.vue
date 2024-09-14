@@ -13,7 +13,7 @@
           <h1
             class="font-semibold text-3xl sm:text-4xl mb-4 text-center text-dark dark:text-white animate-fade-in-up"
           >
-            AYO buat seni visual dan teknologi untuk menciptakan karya unik dan
+            AYO, buat seni visual dan teknologi untuk menciptakan karya unik dan
             inovatif Bersama
             <span class="animate-color-change">Rujak Asam</span>
           </h1>
@@ -156,166 +156,164 @@
   <!-- Fitur End-->
 
   <!-- Start block -->
-  <section class="bg-gray-50 dark:bg-gray-800">
-    <div
-      class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6"
-    >
-      <!-- Row -->
-      <div
-        class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center"
-      >
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2
-            class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
-          >
-            Tentang Saya
-          </h2>
-          <p class="mb-8 font-light lg:text-xl">
-            Kami menawarkan layanan video editing yang menghasilkan video
-            berkualitas tinggi dengan kreativitas dan detail yang luar biasa,
-            cocok untuk promosi bisnis, media sosial, dan film pendek. Layanan
-            desain 2D kami mencakup pembuatan grafis menarik, dari ilustrasi
-            digital hingga desain logo dan branding, yang mencerminkan identitas
-            klien. Kami juga menyediakan solusi programming inovatif untuk
-            pengembangan perangkat lunak dan aplikasi web, dengan fokus pada
-            kode berkualitas dan teknologi terbaru. Karya komik kami menawarkan
-            cerita visual yang menghibur dengan ilustrasi dan narasi yang
-            menarik, untuk pengalaman membaca yang unik.
-          </p>
+  <section id="fitur">
+    <div class="py-12 bg-white dark:bg-dark">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Row 1 -->
+        <div
+          class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center"
+        >
+          <div class="text-gray-500 sm:text-lg dark:text-gray-400 lg:pr-8">
+            <h2
+              class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            >
+              Tentang Saya
+            </h2>
+            <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
+              Kami menawarkan layanan video editing yang menghasilkan video
+              berkualitas tinggi dengan kreativitas dan detail yang luar biasa,
+              cocok untuk promosi bisnis, media sosial, dan film pendek. Layanan
+              desain 2D kami mencakup pembuatan grafis menarik, dari ilustrasi
+              digital hingga desain logo dan branding, yang mencerminkan
+              identitas klien. Kami juga menyediakan solusi programming inovatif
+              untuk pengembangan perangkat lunak dan aplikasi web, dengan fokus
+              pada kode berkualitas dan teknologi terbaru. Karya komik kami
+              menawarkan cerita visual yang menghibur dengan ilustrasi dan
+              narasi yang menarik, untuk pengalaman membaca yang unik.
+            </p>
+          </div>
+          <img
+            class="w-full rounded-lg mb-4 lg:mb-0 transition-transform duration-300 ease-in-out transform hover:scale-105"
+            src="/images/Hiu-project.png"
+            alt="dashboard feature image"
+          />
         </div>
-        <img
-          class="w-full rounded-lg mb-4 lg:mb-0"
-          src="/images/Hiu-project.png"
-          alt="dashboard feature image"
-        />
-      </div>
-      <!-- Row -->
-      <div
-        class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center"
-      >
-        <img
-          class="w-full rounded-lg mb-4 lg:mb-0"
-          src="/images/arlec-project.png"
-          alt="feature image 2"
-        />
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2
-            class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
-          >
-            We invest in the world’s potential
-          </h2>
-          <p class="mb-8 font-light lg:text-xl">
-            Deliver great service experiences fast - without the complexity of
-            traditional ITSM solutions. Accelerate critical development work,
-            eliminate toil, and deploy changes with ease.
-          </p>
-          <!-- List -->
-          <ul
-            role="list"
-            class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
-          >
-            <li class="flex space-x-3">
-              <!-- Icon -->
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-primary"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Dynamic reports and dashboards</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <!-- Icon -->
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-primary"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Templates for everyone</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <!-- Icon -->
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-primary"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Development workflow</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <!-- Icon -->
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-primary"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Limitless business automation</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <!-- Icon -->
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-primary"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Knowledge management</span
-              >
-            </li>
-          </ul>
+        <!-- Row 2 -->
+        <div
+          class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center py-10"
+        >
+          <img
+            class="w-full rounded-lg mb-4 lg:mb-0 transition-transform duration-300 ease-in-out transform hover:scale-105"
+            src="/images/arlec-project.png"
+            alt="feature image 2"
+          />
+          <div class="text-gray-500 sm:text-lg dark:text-gray-400 lg:pl-8">
+            <h2
+              class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            >
+              kalimatnya apa yah
+            </h2>
+            <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
+              aw adas asdsa awdas asdad ad as asda das das das.
+            </p>
+            <!-- List -->
+            <ul
+              role="list"
+              class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
+            >
+              <li class="flex space-x-3">
+                <!-- Icon -->
+                <svg
+                  class="flex-shrink-0 w-5 h-5 text-primary"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span
+                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+                  >Dynamic reports and dashboards</span
+                >
+              </li>
+              <li class="flex space-x-3">
+                <!-- Icon -->
+                <svg
+                  class="flex-shrink-0 w-5 h-5 text-primary"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span
+                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+                  >Templates for everyone</span
+                >
+              </li>
+              <li class="flex space-x-3">
+                <!-- Icon -->
+                <svg
+                  class="flex-shrink-0 w-5 h-5 text-primary"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span
+                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+                  >Development workflow</span
+                >
+              </li>
+              <li class="flex space-x-3">
+                <!-- Icon -->
+                <svg
+                  class="flex-shrink-0 w-5 h-5 text-primary"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span
+                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+                  >Limitless business automation</span
+                >
+              </li>
+              <li class="flex space-x-3">
+                <!-- Icon -->
+                <svg
+                  class="flex-shrink-0 w-5 h-5 text-primary"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span
+                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+                  >Knowledge management</span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End block -->
 
+  <!-- End   block -->
   <!-- Start block -->
   <section class="bg-white dark:bg-gray-900">
     <div
@@ -345,16 +343,16 @@
           >
             <path
               fill-rule="evenodd"
-              d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm2-1a1 1 0 00-1 1v10a1 1 0 001 1h12a1 1 0 001-1V5a1 1 0 00-1-1H4z"
+              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
               clip-rule="evenodd"
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Secure and Compliant
+            Easy to Use
           </h3>
-          <p class="font-light text-gray-500 dark:text-gray-400">
-            We follow the best practices to ensure that your data is safe and
-            secure.
+          <p class="font-light text-primary">
+            Intuitive interface with all the tools you need to get started
+            quickly.
           </p>
         </div>
         <div>
@@ -387,15 +385,16 @@
           >
             <path
               fill-rule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
               clip-rule="evenodd"
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            24/7 Support
+            Easy to Use
           </h3>
-          <p class="font-light text-gray-500 dark:text-gray-400">
-            Our support team is here to help you anytime you need it.
+          <p class="font-light text-primary">
+            Intuitive interface with all the tools you need to get started
+            quickly.
           </p>
         </div>
         <div>
@@ -407,15 +406,16 @@
           >
             <path
               fill-rule="evenodd"
-              d="M12.707 7.293a1 1 0 00-1.414 0L8 9.586 6.707 8.293a1 1 0 00-1.414 1.414L6.586 11l-1.293 1.293a1 1 0 001.414 1.414L8 12.414l1.293 1.293a1 1 0 001.414-1.414L9.414 11l1.293-1.293a1 1 0 000-1.414z"
+              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
               clip-rule="evenodd"
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Reliable Performance
+            Easy to Use
           </h3>
-          <p class="font-light text-gray-500 dark:text-gray-400">
-            Designed to deliver fast and reliable performance.
+          <p class="font-light text-primary">
+            Intuitive interface with all the tools you need to get started
+            quickly.
           </p>
         </div>
       </div>
