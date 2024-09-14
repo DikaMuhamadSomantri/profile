@@ -157,7 +157,7 @@
 
   <!-- Start block -->
   <section id="fitur">
-    <div class="py-12 bg-white dark:bg-dark">
+    <div class="py-5 bg-white dark:bg-dark">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Row 1 -->
         <div
@@ -182,21 +182,26 @@
               narasi yang menarik, untuk pengalaman membaca yang unik.
             </p>
           </div>
-          <img
-            class="w-full rounded-lg mb-4 lg:mb-0 transition-transform duration-300 ease-in-out transform hover:scale-105"
-            src="/images/Hiu-project.png"
-            alt="dashboard feature image"
-          />
+          <div class="relative overflow-hidden">
+            <img
+              class="w-full rounded-lg mb-4 lg:mb-0 mask mask-parallelogram-3 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              src="/images/Hiu-project.png"
+              alt="dashboard feature image"
+            />
+          </div>
         </div>
+
         <!-- Row 2 -->
         <div
-          class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center py-10"
+          class="flex flex-col lg:grid lg:grid-cols-2 xl:gap-16 items-center py-10"
         >
-          <img
-            class="w-full rounded-lg mb-4 lg:mb-0 transition-transform duration-300 ease-in-out transform hover:scale-105"
-            src="/images/arlec-project.png"
-            alt="feature image 2"
-          />
+          <div class="relative overflow-hidden">
+            <img
+              class="w-full rounded-lg mb-4 lg:mb-0 mask mask-parallelogram-4 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              src="/images/arlec-project.png"
+              alt="feature image 2"
+            />
+          </div>
           <div class="text-gray-500 sm:text-lg dark:text-gray-400 lg:pl-8">
             <h2
               class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
@@ -212,7 +217,6 @@
               class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"
             >
               <li class="flex space-x-3">
-                <!-- Icon -->
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-primary"
                   fill="currentColor"
@@ -231,7 +235,6 @@
                 >
               </li>
               <li class="flex space-x-3">
-                <!-- Icon -->
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-primary"
                   fill="currentColor"
@@ -250,7 +253,6 @@
                 >
               </li>
               <li class="flex space-x-3">
-                <!-- Icon -->
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-primary"
                   fill="currentColor"
@@ -268,67 +270,32 @@
                   >Development workflow</span
                 >
               </li>
-              <li class="flex space-x-3">
-                <!-- Icon -->
-                <svg
-                  class="flex-shrink-0 w-5 h-5 text-primary"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span
-                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                  >Limitless business automation</span
-                >
-              </li>
-              <li class="flex space-x-3">
-                <!-- Icon -->
-                <svg
-                  class="flex-shrink-0 w-5 h-5 text-primary"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span
-                  class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                  >Knowledge management</span
-                >
-              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <!-- End   block -->
   <!-- Start block -->
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white dark:bg-dark">
     <div
-      class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6"
+      class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-10 lg:px-6"
     >
       <div class="col-span-2 mb-8">
-        <p class="text-lg font-medium text-primary">Trusted Worldwide</p>
+        <h4 class="mb-3 text-lg font-bold uppercase text-primary">
+          Tentang Saya
+        </h4>
         <h2
           class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
         >
-          Trusted by over 600 million users and 10,000 teams
+          Yuk, Tunggu apa lagi
         </h2>
-        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-          Our rigorous security and compliance standards are at the heart of all
-          we do. We work tirelessly to protect you and your customers.
+        <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
+          Jangan lewatkan kesempatan untuk memanfaatkan layanan kami yang
+          berkualitas tinggi! Kami menawarkan solusi kreatif dan teknis yang
+          dirancang untuk memenuhi berbagai kebutuhan Anda dengan hasil yang
+          memuaskan dan profesional.
         </p>
       </div>
       <div
@@ -348,12 +315,9 @@
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Easy to Use
+            Belum Dipikirin
           </h3>
-          <p class="font-light text-primary">
-            Intuitive interface with all the tools you need to get started
-            quickly.
-          </p>
+          <p class="font-medium text-primary">testing testing</p>
         </div>
         <div>
           <svg
@@ -369,12 +333,9 @@
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Easy to Use
+            Belum Dipikirin
           </h3>
-          <p class="font-light text-primary">
-            Intuitive interface with all the tools you need to get started
-            quickly.
-          </p>
+          <p class="font-medium text-primary">testing testing</p>
         </div>
         <div>
           <svg
@@ -390,12 +351,9 @@
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Easy to Use
+            Belum Dipikirin
           </h3>
-          <p class="font-light text-primary">
-            Intuitive interface with all the tools you need to get started
-            quickly.
-          </p>
+          <p class="font-medium text-primary">testing testing</p>
         </div>
         <div>
           <svg
@@ -411,12 +369,9 @@
             ></path>
           </svg>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Easy to Use
+            Belum Dipikirin
           </h3>
-          <p class="font-light text-primary">
-            Intuitive interface with all the tools you need to get started
-            quickly.
-          </p>
+          <p class="font-medium text-primary">testing testing</p>
         </div>
       </div>
     </div>
