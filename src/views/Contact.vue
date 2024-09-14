@@ -38,11 +38,11 @@
             <a
               href="https://www.youtube.com/@rujak_asam"
               target="_blank"
-              class="flex h-20 w-20 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg
                 role="img"
-                width="50"
+                width="22"
                 class="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,11 +58,11 @@
             <a
               href="https://instagram.com/rujak.asam"
               target="_blank"
-              class="mr-3 flex h-20 w-20 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg
                 role="img"
-                width="50"
+                width="20"
                 class="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,11 +78,11 @@
             <a
               href="https://twitter.com/rujak.asan"
               target="_blank"
-              class="mr-3 flex h-20 w-20 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg
                 role="img"
-                width="50"
+                width="20"
                 class="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -98,11 +98,11 @@
             <a
               href="https://www.tiktok.com/@rujak.asam"
               target="_blank"
-              class="mr-3 flex h-20 w-20 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg
                 role="img"
-                width="50"
+                width="20"
                 class="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,11 +118,11 @@
             <a
               href="https://www.linkedin.com/in/dika-muhamad-s/"
               target="_blank"
-              class="mr-3 flex h-20 w-20 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg
                 role="img"
-                width="50"
+                width="20"
                 class="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
