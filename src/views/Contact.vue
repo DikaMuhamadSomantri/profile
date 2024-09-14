@@ -152,7 +152,7 @@
               <h2
                 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-20"
               >
-                HUBUNGI KAMI
+                Hubungi Kami
               </h2>
               <div class="mb-4">
                 <label for="email" class="block text-sm font-medium mb-1"

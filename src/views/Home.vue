@@ -5,10 +5,10 @@
       class="relative bg-gradient-to-r from-white via-transparent to-primary"
     >
       <div
-        class="container mx-auto flex flex-wrap items-center justify-center min-h-[65vh] sm:min-h-screen h-full"
+        class="container mx-auto flex flex-wrap items-center justify-center min-h-[50vh] sm:min-h-screen h-full"
       >
         <div
-          class="w-full flex flex-col items-center lg:w-1/2 px-4 animate-fade-in-up"
+          class="w-full flex flex-col items-center lg:w-1/2 px-4 animate-fade-in-up mt-24 sm:mt-0"
         >
           <h1
             class="font-semibold text-3xl sm:text-4xl mb-4 text-center text-dark dark:text-white animate-fade-in-up"
@@ -41,6 +41,7 @@
       </div>
     </div>
   </section>
+
   <!-- Hero Section End -->
 
   <!-- Fitur -->
@@ -495,6 +496,7 @@ onMounted(() => {
 /* End Dark */
 
 /* Libear  Hero*/
+/* Gradient untuk layar besar (desktop) */
 .bg-gradient-to-r {
   background: linear-gradient(
     to right,
@@ -503,6 +505,20 @@ onMounted(() => {
     #f43f5e 100%
   );
 }
+
+/* Gradient untuk layar kecil (mobile) */
+@media (max-width: 640px) {
+  /* Ganti dengan breakpoint mobile yang sesuai */
+  .bg-gradient-to-r {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 5%,
+      rgba(228, 228, 228, 0) 45%,
+      #f43f5e 100%
+    );
+  }
+}
+
 /* Pastikan animasi slideshow */
 @keyframes scroll {
   0% {
