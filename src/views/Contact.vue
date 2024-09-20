@@ -1,6 +1,6 @@
 <template>
   <!-- About Section Start -->
-  <section id="about" class="pt-20 pb-12 dark:bg-dark">
+  <section id="contact" class="pt-20 pb-12 dark:bg-dark">
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="flex flex-wrap">
         <!-- Bagian pertama -->

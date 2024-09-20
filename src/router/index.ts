@@ -18,12 +18,8 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to) {
-    if (to.path === "/") {
-      return { el: "#hero", behavior: "smooth" }; // Scroll ke elemen dengan ID "hero"
-    } else {
-      return { top: 0, behavior: "smooth" }; // Scroll ke atas untuk halaman lain
-    }
+  scrollBehavior() {
+    return { top: 0, behavior: "smooth" }; // Scroll ke atas dengan behavior smooth
   },
 });
 
