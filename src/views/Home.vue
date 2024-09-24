@@ -33,7 +33,7 @@
           class="w-full flex justify-center lg:w-1/2 px-4 mt-10 lg:mt-0 relative animate-fade-in-up"
         >
           <img
-            src="/images/logo-hero-section.png"
+            src="/images/kuasa-project.png"
             alt="Hero"
             class="max-w-full max-h-full sm:mt-[-8vh] mt-[-4vh] lg:relative lg:bottom-auto lg:right-auto lg:mt-10 lg:w-auto lg:h-auto object-cover animate-fade-in-up"
           />

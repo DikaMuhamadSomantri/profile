@@ -24,7 +24,7 @@
             id="hamburger"
             name="hamburger"
             type="button"
-            class="absolute right-4 block lg:hidden z-[100] w-8 h-8 flex flex-col justify-center items-center"
+            class="absolute right-4 lg:hidden z-[100] w-8 h-8 flex flex-col justify-center items-center"
           >
             <span
               class="hamburger-line transform transition duration-300 ease-in-out"
@@ -53,7 +53,7 @@
               </li>
               <li class="group">
                 <a
-                  href="#about"
+                  href="/#about"
                   class="mx-8 flex py-2 text-base text-dark font-semibold group-hover:text-primary dark:text-white"
                 >
                   Tentang Saya
