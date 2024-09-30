@@ -2,12 +2,12 @@
   <div>
     <!-- Gallery Section -->
     <section class="bg-primary dark:bg-dark">
-      <div class="text-center px-4 py-12">
-        <h1
-          class="text-4xl font-extrabold text-gray-900 md:text-6xl bg-gradient-to-r from-green-400 to-purple-500 text-transparent bg-clip-text"
+      <div class="text-center px-4 py-5">
+        <h2
+          class="text-3xl font-bold text-dark dark:text-white lg:text-4xl text-center py-5"
         >
           Portofolio
-        </h1>
+        </h2>
       </div>
 
       <div class="w-full h-full select-none">

@@ -1,5 +1,5 @@
 <template>
-  <section id="tentang-saya">
+  <section id="about">
     <div class="py-5 bg-white dark:bg-dark">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Row 1 -->

@@ -2,7 +2,7 @@
   <!-- Hero Section Start -->
   <section id="hero" class="pt-20 sm:pt-10">
     <div
-      class="relative bg-gradient-to-r from-white via-transparent to-primary"
+      class="relative bg-gradient-to-background from-white via-transparent to-primary"
     >
       <div
         class="container mx-auto flex flex-wrap items-center justify-center min-h-[50vh] sm:min-h-screen h-full"
@@ -15,8 +15,13 @@
           >
             AYO, buat seni visual dan teknologi untuk menciptakan karya unik dan
             inovatif Bersama
-            <span class="animate-color-change">Rujak Asam</span>
+            <span
+              class="text-3xl font-bold bg-gradient-to-r from-red-400 to-purple-500 text-transparent bg-clip-text"
+            >
+              Rujak Asam
+            </span>
           </h1>
+
           <h2
             class="font-medium text-slate-500 text-base sm:text-lg mb-5 text-center animate-fade-in-up"
           >
@@ -264,6 +269,67 @@
   <section id="portofolio"><Portofolio /></section>
   <!-- Our Project End-->
 
+  <!-- Our Project WEB -->
+  <section id="wkwk" class="bg-primary dark:bg-dark">
+    <div class="text-center px-4 py-5">
+      <h2
+        class="text-3xl font-bold text-dark dark:text-white lg:text-4xl text-center py-5"
+      >
+        Portofolio Web
+      </h2>
+    </div>
+    <div class="container mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="card card-compact bg-base-100 w-full shadow-xl">
+          <figure>
+            <img
+              src="/images/web-porto.png"
+              alt="Shoes"
+              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Web Portofolio</h2>
+            <p>Component - vite-vue + tailwwind</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card-compact bg-base-100 w-full shadow-xl">
+          <figure>
+            <img
+              src="/images/web-porto.png"
+              alt="Shoes"
+              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Web Portofolio</h2>
+            <p>Component - vite-vue + tailwwind</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card card-compact bg-base-100 w-full shadow-xl">
+          <figure>
+            <img
+              src="/images/web-porto.png"
+              alt="Shoes"
+              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Web Portofolio</h2>
+            <p>Component - vite-vue + tailwwind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Project WEB-->
+
   <!-- Client Section -->
   <section id="client-section" class="pt-10 dark:bg-dark">
     <div class="container">
@@ -335,7 +401,7 @@ onMounted(() => {
 
 /* Libear  Hero*/
 /* Gradient untuk layar besar (desktop) */
-.bg-gradient-to-r {
+.bg-gradient-to-background {
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0) 5%,
@@ -347,7 +413,7 @@ onMounted(() => {
 /* Gradient untuk layar kecil (mobile) */
 @media (max-width: 640px) {
   /* Ganti dengan breakpoint mobile yang sesuai */
-  .bg-gradient-to-r {
+  .bg-gradient-to-background {
     background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 5%,

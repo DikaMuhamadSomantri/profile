@@ -7,14 +7,17 @@
       <div class="relative flex items-center justify-between">
         <div class="px-4">
           <a
-            href="/"
+            href="/#"
             class="flex items-center py-6 text-lg font-bold animate-color-change"
           >
             <!-- <img
               src="/images/Illustration.png"
               class="w-12 h-auto max-w-full"
             /> -->
-            <span class="ml-2">Rujak Asam</span>
+            <span
+              class="ml-2 bg-gradient-to-r from-red-500 to-purple-500 text-transparent bg-clip-text"
+              >Rujak Asam</span
+            >
           </a>
         </div>
 
