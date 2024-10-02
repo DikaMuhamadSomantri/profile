@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <div class="py-5 bg-white dark:bg-dark">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-9 sm:px-6 lg:px-8">
         <!-- Row 1 -->
         <div
           class="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:gap-16 items-center"

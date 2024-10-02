@@ -63,12 +63,12 @@
                 </a>
               </li>
               <li class="group">
-                <router-link
-                  to="/portofolio"
+                <a
+                  href="/#portofolio"
                   class="mx-8 flex py-2 text-base text-dark font-semibold group-hover:text-primary dark:text-white"
                 >
                   Portfolio
-                </router-link>
+                </a>
               </li>
               <li class="group">
                 <a

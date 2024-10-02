@@ -161,174 +161,91 @@
   <!-- Fitur End-->
 
   <!-- Start tentang saya -->
-  <!-- Client Section End -->
+  <!-- About Section End -->
   <section id="about"><About /></section>
-  <!-- End   block -->
-  <!-- Start block -->
-  <section class="bg-white dark:bg-dark">
+  <!-- End   About -->
+
+  <!-- Star -->
+  <section class="bg-white dark:bg-dark overflow-hidden">
     <div
-      class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-10 lg:px-6"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl px-9 py-8 mx-auto lg:gap-16 xl:gap-24 lg:py-10"
     >
-      <div class="col-span-2 mb-8">
+      <!-- Kolom 1 -->
+      <div class="mb-8 lg:mb-0">
         <h4 class="mb-3 text-lg font-bold uppercase text-primary">
           Tentang Saya
         </h4>
         <h2
-          class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
+          class="mt-3 mb-4 text-2xl lg:text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
         >
           Yuk, Tunggu apa lagi
         </h2>
-        <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
+        <p
+          class="max-w-xl text-base font-medium text-secondary lg:text-lg dark:text-secondary"
+        >
           Jangan lewatkan kesempatan untuk memanfaatkan layanan kami yang
           berkualitas tinggi! Kami menawarkan solusi kreatif dan teknis yang
           dirancang untuk memenuhi berbagai kebutuhan Anda dengan hasil yang
           memuaskan dan profesional.
         </p>
       </div>
-      <div
-        class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0"
-      >
-        <div>
-          <svg
-            class="w-10 h-10 mb-2 text-primary md:w-12 md:h-12"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Belum Dipikirin
-          </h3>
-          <p class="font-medium text-primary">testing testing</p>
-        </div>
-        <div>
-          <svg
-            class="w-10 h-10 mb-2 text-primary md:w-12 md:h-12"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Belum Dipikirin
-          </h3>
-          <p class="font-medium text-primary">testing testing</p>
-        </div>
-        <div>
-          <svg
-            class="w-10 h-10 mb-2 text-primary md:w-12 md:h-12"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Belum Dipikirin
-          </h3>
-          <p class="font-medium text-primary">testing testing</p>
-        </div>
-        <div>
-          <svg
-            class="w-10 h-10 mb-2 text-primary md:w-12 md:h-12"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M11.293 6.293a1 1 0 00-1.414 0L8 7.586 7.121 6.707a1 1 0 00-1.414 1.414L6.586 9 5.707 10.707a1 1 0 001.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414-1.414L9.414 9l1.293-1.293a1 1 0 000-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Belum Dipikirin
-          </h3>
-          <p class="font-medium text-primary">testing testing</p>
+
+      <!-- Kolom 2 -->
+      <div class="px-4 mr-9 lg:ml-auto lg:pl-16">
+        <!-- Ditambahkan lg:ml-auto dan lg:pl-16 -->
+        <div class="stats shadow bg-white dark:bg-dark">
+          <div class="stat">
+            <div class="stat-figure text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-8 w-8 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                ></path>
+              </svg>
+            </div>
+            <div class="stat-title text-gray-900 dark:text-white">
+              Total Penikut
+            </div>
+            <div class="stat-value text-primary">41.2K</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-figure text-secondary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-8 w-8 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                ></path>
+              </svg>
+            </div>
+            <div class="stat-title text-gray-900 dark:text-white">
+              Page Views
+            </div>
+            <div class="stat-value text-secondary">1M++</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End block -->
+  <!-- End -->
 
   <!-- Our Project -->
   <section id="portofolio"><Portofolio /></section>
   <!-- Our Project End-->
-
-  <!-- Our Project WEB -->
-  <section id="wkwk" class="bg-primary dark:bg-dark">
-    <div class="text-center px-4 py-5">
-      <h2
-        class="text-3xl font-bold text-dark dark:text-white lg:text-4xl text-center py-5"
-      >
-        Portofolio Web
-      </h2>
-    </div>
-    <div class="container mx-auto px-4 py-12">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1 -->
-        <div class="card card-compact bg-base-100 w-full shadow-xl">
-          <figure>
-            <img
-              src="/images/web-porto.png"
-              alt="Shoes"
-              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
-            />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Web Portofolio</h2>
-            <p>Component - vite-vue + tailwwind</p>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="card card-compact bg-base-100 w-full shadow-xl">
-          <figure>
-            <img
-              src="/images/web-porto.png"
-              alt="Shoes"
-              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
-            />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Web Portofolio</h2>
-            <p>Component - vite-vue + tailwwind</p>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="card card-compact bg-base-100 w-full shadow-xl">
-          <figure>
-            <img
-              src="/images/web-porto.png"
-              alt="Shoes"
-              class="transition-transform duration-300 ease-in-out transform hover:scale-105"
-            />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Web Portofolio</h2>
-            <p>Component - vite-vue + tailwwind</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Our Project WEB-->
 
   <!-- Client Section -->
   <section id="client-section" class="pt-10 dark:bg-dark">
