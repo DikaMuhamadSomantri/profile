@@ -160,7 +160,6 @@
   </section>
   <!-- Fitur End-->
 
-  <!-- Start tentang saya -->
   <!-- About Section End -->
   <section id="about"><About /></section>
   <!-- End   About -->
@@ -168,7 +167,7 @@
   <!-- Star -->
   <section class="bg-white dark:bg-dark overflow-hidden">
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-16 xl:gap-24 max-w-7xl px-6 md:px-9 py-8 mx-auto lg:py-10"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-16 xl:gap-24 max-w-7xl px-4 py-8 mx-auto lg:py-10"
     >
       <!-- Kolom 1 -->
       <div class="mb-8 lg:mb-0">
@@ -191,8 +190,8 @@
       </div>
 
       <!-- Kolom 2 -->
-      <div class="max-w-md px-0 md:px-4 mx-auto lg:ml-auto lg:pl-16">
-        <div class="stats shadow bg-white dark:bg-dark">
+      <div class="flex justify-center w-full px-4 md:w-3/4 lg:w-1/2">
+        <div class="stats shadow bg-white dark:bg-dark w-full">
           <div class="stat">
             <div class="stat-figure text-primary">
               <svg
