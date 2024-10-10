@@ -8,10 +8,11 @@
         >
           <div class="text-gray-500 sm:text-lg dark:text-gray-400 lg:pr-8">
             <h2
-              class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+              class="mb-4 text-3xl font-bold text-dark dark:text-white lg:text-4xl"
             >
               Tentang Saya
             </h2>
+
             <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
               Kami menawarkan layanan video editing yang menghasilkan video
               berkualitas tinggi dengan kreativitas dan detail yang luar biasa,
@@ -47,7 +48,7 @@
           </div>
           <div class="text-gray-500 sm:text-lg dark:text-gray-400 lg:pl-8">
             <h2
-              class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+              class="mb-4 text-3xl font-bold text-dark dark:text-white lg:text-4xl"
             >
               Harga
             </h2>
