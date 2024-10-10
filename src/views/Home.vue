@@ -25,7 +25,7 @@
           <h2
             class="font-medium text-slate-500 text-base sm:text-lg mb-5 text-center animate-fade-in-up"
           >
-            Konten Kreator | 2D Artist | Programming
+            2D | Programming | Editing Video
           </h2>
           <a
             href="#contact"
