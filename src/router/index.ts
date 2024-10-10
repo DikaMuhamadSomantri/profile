@@ -19,7 +19,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior() {
-    return { top: 0, behavior: "smooth" }; // Scroll ke atas dengan behavior smooth
+    return { top: 0, behavior: "smooth" };
   },
 });
 
