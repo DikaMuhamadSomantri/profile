@@ -168,7 +168,7 @@
   <!-- Star -->
   <section class="bg-white dark:bg-dark overflow-hidden">
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl px-9 py-8 mx-auto lg:gap-16 xl:gap-24 lg:py-10"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-16 xl:gap-24 max-w-7xl px-6 md:px-9 py-8 mx-auto lg:py-10"
     >
       <!-- Kolom 1 -->
       <div class="mb-8 lg:mb-0">
@@ -191,8 +191,7 @@
       </div>
 
       <!-- Kolom 2 -->
-      <div class="px-4 mr-9 lg:ml-auto lg:pl-16">
-        <!-- Ditambahkan lg:ml-auto dan lg:pl-16 -->
+      <div class="max-w-md px-0 md:px-4 mx-auto lg:ml-auto lg:pl-16">
         <div class="stats shadow bg-white dark:bg-dark">
           <div class="stat">
             <div class="stat-figure text-primary">
@@ -211,7 +210,7 @@
               </svg>
             </div>
             <div class="stat-title text-gray-900 dark:text-white">
-              Total Penikut
+              Total Pengikut
             </div>
             <div class="stat-value text-primary">41.2K</div>
           </div>
@@ -241,6 +240,7 @@
       </div>
     </div>
   </section>
+
   <!-- End -->
 
   <!-- Our Project -->
